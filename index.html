@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <div class="container">
+            <h1>Sistema de Gestión de Proyectos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduccion">Introducción</a></li>
+                    <li><a href="#avance1">Avance 1</a></li>
+                    <li><a href="#avance2">Avance 2</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#sistema">Sistema</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section id="introduccion" class="intro-section">
+        <div class="container">
+            <h2>Introducción</h2>
+            <article>
+                <h3>Objetivos del Sistema</h3>
+                <p>Desarrollar una aplicación web completa para la gestión eficiente de proyectos, permitiendo a los usuarios:</p>
+                <ul>
+                    <li>Agregar nuevos proyectos con información detallada</li>
+                    <li>Buscar proyectos existentes mediante filtros avanzados</li>
+                    <li>Eliminar proyectos de manera segura</li>
+                    <li>Actualizar información de proyectos existentes</li>
+                    <li>Visualizar proyectos en formato de tabla o tarjetas</li>
+                </ul>
+                
+                <h3>Contexto del Sistema</h3>
+                <p>Este sistema está diseñado para pequeñas y medianas empresas que necesitan organizar y realizar seguimiento a sus proyectos de manera centralizada, mejorando la productividad y facilitando la colaboración entre equipos.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección Avance 1 -->
+    <section id="avance1" class="avance-section">
+        <div class="container">
+            <h2>Avance 1: Estructura Básica</h2>
+            <article>
+                <h3>Elementos Implementados</h3>
+                <div class="code-example">
+                    <h4>Estructura HTML Semántica</h4>
+                    <pre><code>&lt;header&gt;...&lt;/header&gt;
+&lt;nav&gt;...&lt;/nav&gt;
+&lt;main&gt;...&lt;/main&gt;
+&lt;section&gt;...&lt;/section&gt;
+&lt;footer&gt;...&lt;/footer&gt;</code></pre>
+                </div>
+                
+                <h3>Componentes Principales</h3>
+                <ul>
+                    <li><strong>Interfaz de Usuario:</strong> Diseño responsive con navegación intuitiva</li>
+                    <li><strong>Formulario de Proyectos:</strong> Campos para nombre, descripción, prioridad y estado</li>
+                    <li><strong>Visualización:</strong> Diseño de tarjetas para mostrar proyectos</li>
+                    <li><strong>Filtros:</strong> Interfaz para buscar y filtrar proyectos</li>
+                </ul>
+                
+                <h3>Tecnologías Utilizadas</h3>
+                <div class="tech-badges">
+                    <span class="badge">HTML5</span>
+                    <span class="badge">CSS3</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">LocalStorage</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección Avance 2 -->
+    <section id="avance2" class="avance-section">
+        <div class="container">
+            <h2>Avance 2: Funcionalidades Dinámicas</h2>
+            <article>
+                <h3>Gestión de Proyectos</h3>
+                <div class="functionality-grid">
+                    <div class="func-card">
+                        <h4>Agregar Proyectos</h4>
+                        <p>Formulario validado para crear nuevos proyectos con todos los campos requeridos</p>
+                    </div>
+                    <div class="func-card">
+                        <h4>Buscar Proyectos</h4>
+                        <p>Sistema de búsqueda en tiempo real con filtros múltiples</p>
+                    </div>
+                    <div class="func-card">
+                        <h4>Eliminar Proyectos</h4>
+                        <p>Eliminación con confirmación para prevenir pérdida accidental de datos</p>
+                    </div>
+                    <div class="func-card">
+                        <h4>Actualizar Proyectos</h4>
+                        <p>Edición en línea de proyectos existentes con persistencia de cambios</p>
+                    </div>
+                </div>
+                
+                <h3>Almacenamiento de Datos</h3>
+                <p>Implementación de LocalStorage para persistir los datos del usuario entre sesiones, simulando una base de datos.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección Funcionalidades Completas -->
+    <section id="funcionalidades" class="features-section">
+        <div class="container">
+            <h2>Funcionalidades Completas</h2>
+            <article>
+                <h3>Integración de Avances</h3>
+                <p>Se han unificado ambos avances en un sistema cohesivo donde:</p>
+                <ul>
+                    <li>La estructura básica (Avance 1) sirve como base sólida</li>
+                    <li>Las funcionalidades dinámicas (Avance 2) se integran perfectamente</li>
+                    <li>Se han realizado ajustes finales para mejorar la experiencia de usuario</li>
+                </ul>
+                
+                <h3>Características del Sistema Final</h3>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <h4>Interfaz Intuitiva</h4>
+                        <p>Diseño limpio y fácil de usar con navegación clara</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Responsive Design</h4>
+                        <p>Adaptable a diferentes tamaños de pantalla y dispositivos</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Validación de Datos</h4>
+                        <p>Sistema robusto de validación para entradas de usuario</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Persistencia</h4>
+                        <p>Los datos se mantienen entre sesiones del navegador</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sistema de Gestión de Proyectos -->
+    <section id="sistema" class="system-section">
+        <div class="container">
+            <h2>Sistema de Gestión de Proyectos</h2>
+            
+            <!-- Formulario para agregar proyectos -->
+            <div class="form-container">
+                <h3>Agregar Nuevo Proyecto</h3>
+                <form id="projectForm">
+                    <div class="form-group">
+                        <label for="projectName">Nombre del Proyecto:</label>
+                        <input type="text" id="projectName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectDescription">Descripción:</label>
+                        <textarea id="projectDescription" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectPriority">Prioridad:</label>
+                        <select id="projectPriority" required>
+                            <option value="">Seleccionar prioridad</option>
+                            <option value="alta">Alta</option>
+                            <option value="media">Media</option>
+                            <option value="baja">Baja</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectStatus">Estado:</label>
+                        <select id="projectStatus" required>
+                            <option value="">Seleccionar estado</option>
+                            <option value="pendiente">Pendiente</option>
+                            <option value="en-progreso">En Progreso</option>
+                            <option value="completado">Completado</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary">Agregar Proyecto</button>
+                </form>
+            </div>
+            
+            <!-- Búsqueda y filtros -->
+            <div class="search-container">
+                <h3>Buscar Proyectos</h3>
+                <div class="search-filters">
+                    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+                    <label for="statusFilter">Filtrar por estado:</label>
+                    <select id="statusFilter" aria-label="Filtrar por estado">
+                        <option value="">Todos los estados</option>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="en-progreso">En Progreso</option>
+                        <option value="completado">Completado</option>
+                    </select>
+                    <select id="priorityFilter" aria-label="Filtrar por prioridad">
+                        <option value="">Todas las prioridades</option>
+                        <option value="alta">Alta</option>
+                        <option value="media">Media</option>
+                        <option value="baja">Baja</option>
+                    </select>
+                    <button id="clearFilters" class="btn-secondary">Limpiar Filtros</button>
+                </div>
+            </div>
+            
+            <!-- Visualización de proyectos -->
+            <div class="view-options">
+                <button id="tableViewBtn" class="view-btn active">Vista Tabla</button>
+                <button id="cardViewBtn" class="view-btn">Vista Tarjetas</button>
+            </div>
+            
+            <!-- Contenedor para proyectos en tabla -->
+            <div id="tableView" class="view-container active">
+                <h3>Lista de Proyectos</h3>
+                <table id="projectsTable">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Prioridad</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="projectsTableBody">
+                        <!-- Los proyectos se insertarán aquí dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Contenedor para proyectos en tarjetas -->
+            <div id="cardView" class="view-container">
+                <h3>Proyectos</h3>
+                <div id="projectsGrid" class="projects-grid">
+                    <!-- Los proyectos se insertarán aquí dinámicamente -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Modal para editar proyectos -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Editar Proyecto</h3>
+            <form id="editProjectForm">
+                <input type="hidden" id="editProjectId">
+                <div class="form-group">
+                    <label for="editProjectName">Nombre del Proyecto:</label>
+                    <input type="text" id="editProjectName" required>
+                </div>
+                <div class="form-group">
+                    <label for="editProjectDescription">Descripción:</label>
+                    <textarea id="editProjectDescription" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="editProjectPriority">Prioridad:</label>
+                    <select id="editProjectPriority" required>
+                        <option value="alta">Alta</option>
+                        <option value="media">Media</option>
+                        <option value="baja">Baja</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editProjectStatus">Estado:</label>
+                    <select id="editProjectStatus" required>
+                        <option value="pendiente">Pendiente</option>
+                        <option value="en-progreso">En Progreso</option>
+                        <option value="completado">Completado</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Guardar Cambios</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
